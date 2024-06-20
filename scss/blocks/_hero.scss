@@ -1,0 +1,67 @@
+@import "../colors//colors";
+
+.hero {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  &__head {
+    width: 460px;
+    font-size: 43px;
+    font-weight: 400;
+    color: $text;
+    font-family: Roboto;
+  }
+
+  &__text {
+    font-family: Roboto;
+    width: 485px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: $text;
+  }
+
+  &__item--div {
+    width: 497px;
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: column !important;
+
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 8px 24px 0 rgba(7, 19, 48, 0.06);
+    background: #fff;
+  }
+
+  &__btn {
+    font-family: Roboto;
+    font-weight: 700;
+    width: 172px;
+    height: 56px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    background-color: $main;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__item2 {
+    margin-top: 100px;
+  }
+  &__input {
+    border: none;
+    font-weight: bold;
+    outline: none;
+    font-size: 17px;
+    color: $text;
+    padding-left: 20px;
+  }
+
+  &__img {
+    // margin-right: 120px;
+    width: 600px;
+    height: 593px;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../mixins//mixins";
+@import "../colors//colors";
+.header {
+  padding-top: 12px;
+  &__list {
+    width: 1100px;
+    margin: 0 auto;
+    @include list;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item2 {
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    font-family: Roboto;
+    margin-top: 10px;
+    @include link;
+    font-size: 18px;
+  }
+
+  &__btn {
+    width: 152px;
+    height: 40px;
+    border: none;
+    background-color: $main;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+  &__btn:hover {
+    transform: scale(0.95);
+  }
+}

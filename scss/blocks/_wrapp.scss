@@ -1,0 +1,121 @@
+.wrapp {
+  margin-top: 200px;
+  &__head {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 207%;
+    text-align: center;
+    width: 693px;
+    margin: 0 auto;
+    color: #f0bca3;
+  }
+
+  &__wrapp {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: rgba(7, 19, 48, 0.6);
+  }
+
+  &__job {
+    margin-left: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: rgba(7, 19, 48, 0.6);
+  }
+
+  &__list {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__item--text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: $text;
+    width: 439px;
+  }
+  &__item {
+    width: 1130px;
+    margin-top: 50px;
+
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item--data {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+
+  &__item--blue {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25%;
+    color: $main;
+  }
+
+  &__item--head {
+    width: 354px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 70px 0px;
+    line-height: 117%;
+    color: $text;
+  }
+
+  &__img {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  &__item--text2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 267%;
+    color: $text;
+  }
+
+  &__wrapp--wrapp {
+    display: flex;
+    margin-top: -30px;
+    width: 470px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  &__wrapp--head {
+    margin-left: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #071330;
+  }
+
+  &__item--data3 {
+    margin-top: 30px;
+  }
+}

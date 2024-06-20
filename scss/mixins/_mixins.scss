@@ -1,0 +1,9 @@
+@mixin list {
+  display: flex;
+  list-style: none;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: black;
+}

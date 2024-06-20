@@ -1,0 +1,79 @@
+@import "../colors//colors";
+@import "../mixins//mixins";
+
+.treat {
+  margin-top: 400px;
+  &__head {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 117%;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+
+    color: $text;
+  }
+
+  &__list {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  &__item--left {
+    margin-top: 10px;
+    align-items: end;
+  }
+
+  &__item--img {
+    margin-right: 10px;
+  }
+
+  &__item--span {
+    font-family: Roboto;
+    background: $main;
+    width: 56px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item--head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: $text;
+  }
+
+  &__item--text {
+    width: 535px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: rgba(7, 19, 48, 0.6);
+  }
+
+  &__item {
+    @include list;
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  &__item2 {
+    padding-top: 80px;
+  }
+}

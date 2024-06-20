@@ -1,0 +1,144 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px !important;
+  margin: 0 auto;
+  width: 1100px;
+
+  &__blue {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: $main;
+  }
+
+  &__head {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0 10px;
+    text-align: center;
+    color: $text;
+  }
+  &__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: $text;
+  }
+
+  &__list {
+    margin-top: 50px !important;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  &__item {
+    width: 158px;
+    margin-top: 50px !important;
+    height: 104px;
+    border: 1px solid none;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item1 {
+    background: rgba(127, 221, 240, 0.1);
+  }
+
+  &__item2 {
+    background: rgba(95, 174, 236, 0.1);
+  }
+
+  &__item3 {
+    background: rgba(155, 120, 253, 0.08);
+  }
+  &__item4 {
+    background: rgba(239, 156, 208, 0.1);
+  }
+  &__item5 {
+    background: rgba(246, 132, 94, 0.1);
+  }
+  &__item6 {
+    background: rgba(249, 182, 94, 0.1);
+  }
+  &__item7 {
+    background: rgba(255, 221, 87, 0.1);
+  }
+  &__item8 {
+    background: rgba(171, 224, 80, 0.1);
+  }
+  &__item9 {
+    background: rgba(123, 207, 166, 0.1);
+  }
+  &__item10 {
+    background: #f7f8fc;
+    width: 535px;
+  }
+
+  &__plus {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    stroke-width: 1px;
+    stroke: #fff;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0 13px 24px 0 rgba(127, 221, 240, 0.2);
+  }
+
+  &__plus1 {
+    background: #7fddf0;
+  }
+  &__plus2 {
+    background: #5faeec;
+  }
+  &__plus3 {
+    background: #9b78fd;
+  }
+  &__plus4 {
+    background: #ef9cd0;
+  }
+  &__plus5 {
+    background: #f6845e;
+  }
+  &__plus6 {
+    background: #f9b65e;
+  }
+
+  &__plus7 {
+    background: #ffdd57;
+  }
+  &__plus8 {
+    background: #abe050;
+  }
+  &__plus9 {
+    background: #7bcfa6;
+  }
+  &__plus10 {
+    background: #b5b8c1;
+  }
+  &__item--text {
+    font-family: Roboto;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+    color: $text;
+  }
+}
